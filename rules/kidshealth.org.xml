@@ -1,7 +1,0 @@
-<sitename name="kidshealth.org">
- <docname name="Privacy Policy and Terms of Use">
-   <url name="http://kidshealth.org/parent/kh_misc/policy.html" xpath="//div[@id='khcontent_article']">
-     <norecurse name="arbitrary"/>
-   </url>
- </docname>
-</sitename>

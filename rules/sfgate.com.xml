@@ -1,7 +1,0 @@
-<sitename name="sfgate.com">
- <docname name="Privacy Policy">
-   <url name="http://www.sfgate.com/privacy-policy/" xpath="//div[@class='zone zone-2']">
-     <norecurse name="arbitrary"/>
-   </url>
- </docname>
-</sitename>

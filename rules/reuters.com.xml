@@ -1,7 +1,0 @@
-<sitename name="reuters.com">
- <docname name="Privacy Policy">
-   <url name="http://newsandinsight.thomsonreuters.com/Legal/PrivacyPolicy.aspx">
-     <norecurse name="arbitrary"/>
-   </url>
- </docname>
-</sitename>

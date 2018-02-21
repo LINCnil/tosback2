@@ -18,7 +18,7 @@ class TOSBackNotifier
     secrets = TOSBackSecrets.get_secret_hash
     
     Mail.defaults do
-      delivery_method :smtp, { :address   => "smtp.sendgrid.net",
+      delivery_method :smtp, { :address   => "smtp.free.fr",
                                :port      => 587,
                                :domain    => "tosdr.org",
                                :user_name => secrets[:u],
@@ -30,11 +30,11 @@ class TOSBackNotifier
     if @changes.length > 0
       bodytext = ""
       @changes.each {|change| bodytext += "#{change[:site]}: #{change[:name]}\n"}
-      url = "https://github.com/tosdr/tosback2/commit/" + @commit + "?diff=split"
+      url = "https://github.com/LINCnil/tosback2/commit/" + @commit + "?diff=split"
       
       mail = Mail.deliver do
-        to 'tosdr@googlegroups.com'
-        from 'ToSBack <tosback@tosdr.org>'
+        to 'sei@cnil.fr'
+        from 'ToSBack <tosback@cnil.fr>'
         subject 'ToSBack: Policy Changes'
         text_part do
           body "#{bodytext} These were changed in last night's crawl. Please have a look at the commit at #{url} to see the differences!"
@@ -52,8 +52,8 @@ class TOSBackNotifier
       @blank.each {|blank| bodytext += "#{blank[:site]}: #{blank[:name]}\n"}
             
       mail = Mail.deliver do
-        to 'jimm@tosdr.org'
-        from 'ToSBack <tosback@tosdr.org>'
+        to 'sei@cnil.fr'
+        from 'ToSBack <tosback@cnil.fr>'
         subject 'Blank scrapes for reviewed policies'
         text_part do
           body "#{bodytext} These were blank in last night's crawl, and have been blank for a couple days. Have a look at the rules!"

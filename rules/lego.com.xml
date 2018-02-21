@@ -1,7 +1,0 @@
-<sitename name="lego.com">
- <docname name="Privacy Policy">
-   <url name="http://aboutus.lego.com/en-us/legal-notice/privacy-policy-full/" xpath="//div[@class='articleText richText']">
-     <norecurse name="arbitrary"/>
-   </url>
- </docname>
-</sitename>
