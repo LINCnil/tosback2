@@ -1,17 +1,25 @@
 These files were modified since the last commit:
 
-On branch master
-Your branch and 'origin/master' have diverged,
-and have 8 and 2 different commits each, respectively.
-  (use "git pull" to merge the remote branch into yours)
+Sur la branche master
+Votre branche et 'origin/master' ont divergé,
+et ont 9 et 2 commits différents chacune respectivement.
+  (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
 
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
+	modifié :         ../logs/errors.log
+	modifié :         ../logs/modified.log
+	modifié :         ../logs/run.log
+	modifié :         ../tosback.sh
 
-	modified:   ../logs/errors.log
-	modified:   ../logs/modified.log
-	modified:   ../logs/run.log
-	modified:   ../tosback.sh
+Fichiers non suivis:
+  (utilisez "git add <fichier>..." pour inclure dans ce qui sera validé)
 
-no changes added to commit (use "git add" and/or "git commit -a")
+	../._.gitignore
+	../._tosback.sh
+	._main.rb
+	lib/._tosback_secrets.rb
+	lib/._tosbacknotifier.rb
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
