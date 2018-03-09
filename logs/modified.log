@@ -4,11 +4,17 @@ Sur la branche master
 Votre branche et 'origin/master' ont divergé,
 et ont 9 et 2 commits différents chacune respectivement.
   (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
+Modifications qui seront validées :
+  (utilisez "git reset HEAD <fichier>..." pour désindexer)
+
+	modifié :         ../logs/errors.log
+	modifié :         ../logs/modified.log
+	modifié :         ../logs/run.log
+
 Modifications qui ne seront pas validées :
   (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
   (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
 
-	modifié :         ../logs/errors.log
 	modifié :         ../logs/modified.log
 	modifié :         ../logs/run.log
 	modifié :         ../tosback.sh
@@ -22,4 +28,3 @@ Fichiers non suivis:
 	lib/._tosback_secrets.rb
 	lib/._tosbacknotifier.rb
 
-aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
