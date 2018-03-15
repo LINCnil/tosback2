@@ -2,13 +2,12 @@ These files were modified since the last commit:
 
 Sur la branche master
 Votre branche et 'origin/master' ont divergé,
-et ont 14 et 2 commits différents chacune respectivement.
+et ont 15 et 2 commits différents chacune respectivement.
   (utilisez "git pull" pour fusionner la branche distante dans la vôtre)
 Modifications qui ne seront pas validées :
-  (utilisez "git add/rm <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
   (utilisez "git checkout -- <fichier>..." pour annuler les modifications dans la copie de travail)
 
-	supprimé :        ../logs/errors.log
 	modifié :         ../logs/modified.log
 	modifié :         ../logs/run.log
 	modifié :         ../tosback.sh
